@@ -1,17 +1,14 @@
-
 /*Q.)Today you decided to go to the gym. You currently have energy equal to E units. There are N exercises in the gym. Each of these exercises drains Ai amount of energy from your body.You feel tired if your energy reaches 0 or below. Calculate the minimum number of exercises you have to perform such that you become tired. Every unique exercise can only be performed at most 2 times as others also have to use the machines.
 If performing all the exercises does not make you feel tired, return -1. 
 */
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
-
 public class Q1 {
-
     static class Exercise {
         int energy;
         int index;
-
+        
         public Exercise(int energy, int index) {
             this.energy = energy;
             this.index = index;
